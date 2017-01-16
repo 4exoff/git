@@ -1,0 +1,238 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+header{
+    background:url('../img/HeaderImage.png') no-repeat center;
+	background-size: cover;
+	height: 570px;
+
+}
+.headerContext{
+	width: 800px;
+	height: 100%;
+	margin: 0 auto;
+}
+.headerMenu { 
+    width:100%;
+    height: 70px;
+}
+    .headerMenu img {
+        float:left;
+        width:140px;
+        height:35px;
+        margin-left:22px;
+        margin-top:20px;
+        margin-right: 280px;
+    }
+
+    .headerMenu li {
+        display:inline-block;
+        text-align:center;
+        padding-left:5px;
+        padding-top:30px;
+    }
+
+    .headerMenu a {
+    	display:block;
+    	text-decoration:none;
+    	font-size:12px;
+    	color:rgba(255, 255, 255, 1);
+        font-family:Arial, Helvetica, sans-serif;
+    	text-transform:uppercase;  
+    	padding: 5px;
+	}
+
+    .headerMenu a:hover {
+    	border-bottom: 3px solid rgba(255, 255, 255, 1);
+	}
+
+.contextHeader{
+	height: 500px;
+	width: 100%;
+}
+
+.contextText{
+	float: left;
+	width: 40%;
+	height: 100%;
+	display:inline-block;
+    color:rgba(250, 250, 250, 0.9);     
+}
+	.contextText h1{
+		font-size:26px;
+		font-family:Verdana, Geneva, Tahoma, sans-serif;
+   	 	text-transform:uppercase;
+    	padding: 135px 0px 25px 22px; 
+	}
+
+	.contextText p{
+		padding: 0px 18px 25px 22px;
+		font-size:18px;
+		font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+		line-height: 1.2;
+		color:rgba(250, 250, 250, 0.7); 
+	}
+
+	.contextText a{
+		background-color: rgba(21, 20, 20, 1);
+		border-radius: 50px;
+    	display: inline-block;
+   		padding: 7px 20px; 
+    	text-decoration: none; 
+    	margin:  auto auto auto 22px;	
+    	font-size:6px;
+		font-family:Verdana, Geneva, Tahoma, sans-serif;
+   	 	text-transform:uppercase;
+   	 	color:rgba(250, 250, 250, 1);
+	}
+
+	.contextText img {
+		float: left;
+		width: 15px;
+		height: 25px;
+	}
+
+	.contextText h2{
+		float:right;
+		padding: 7px 0px 0px 10px;
+	}
+
+	.contextText a:hover{
+		background-color: #333;
+	}
+
+.contextImage{
+	float:right;
+	display:inline-block;
+	width: 60%;
+	height: 100%;
+
+}
+	.contextImage img{
+		width: 280px;
+		height: 420px;
+		float:right;
+		margin: 80px auto auto auto;
+	}
+
+.firstContext{
+	width: 100%;
+	height: 570px;
+}
+
+.firstContextText{
+	width: 800px;
+	height: 30%;
+	margin: 0 auto;
+	text-align: center;
+	color:rgba(53, 51, 51, 0.7);
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+	.firstContextText h1{
+		text-transform:uppercase;
+		font-size:30px;
+		padding-top: 40px ;
+	}
+
+	.firstContextText p{
+		font-size:15px;
+		padding: 30px  60px 20px 60px;
+	}
+
+.firstContextIcons{
+	width: 800px;
+	height: 70%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.firstContextIcon{
+	display: inline-block;
+	width: 33%;
+	margin-top: 20px;
+}
+	.firstContextIcon img{
+		width: 65%;
+		padding: 20px;
+	}
+
+	.firstContextIcon h1{
+		text-transform:uppercase;
+		font-size:17px;
+		color:rgba(21, 20, 20, 1);
+		font-family:Verdana, Geneva, Tahoma, sans-serif;
+	}
+
+	.firstContextIcon p{
+		font-size:14px;
+		color:rgba(53, 51, 51, 0.7);
+		font-family:Verdana, Geneva, Tahoma, sans-serif;
+		padding: 20px 10px 20px 10px;
+	} 
+
+.secondContext{
+	background:url('../img/clown.png') no-repeat center;
+	background-size: cover;
+	height: 570px;
+}
+
+.secondContextText{
+	width: 800px;
+	height: 100%;
+	margin: 0 auto;
+	
+}
+
+.secondContextContent{
+	width: 60%;
+	height: 100%;
+	text-align: left;
+	padding-left: 22px; 
+}
+
+.red{
+	color:red;
+}
+
+	.secondContextContent h1{
+		font-family:Verdana, Geneva, Tahoma, sans-serif;
+		text-transform:uppercase;
+		font-size:30px;
+		color:rgba(250, 250, 250, 0.9); 
+		padding: 150px 0px 20px 0px;
+	}
+
+	.secondContextContent p{
+		font-size:16px;
+		color:rgba(53, 51, 51, 0.7);
+		font-family:Verdana, Geneva, Tahoma, sans-serif;
+		line-height: 1.5;
+		padding: 10px 140px 40px 0px;
+	}
+
+	.secondContextContent a{
+		background-color: rgba(250, 20, 20, 1);
+		border-radius: 50px;
+    	display: inline-block;
+   		padding: 12px 20px; 
+    	text-decoration: none; 	
+    	font-size:6px;
+		font-family:Verdana, Geneva, Tahoma, sans-serif;
+   	 	text-transform:uppercase;
+   	 	color:rgba(250, 250, 250, 1);
+   	 }
+
+   	.secondContextContent a:hover{
+		background-color: #333;
+	}
+
+
+footer{
+
+	width: 100%;
+	height: 20px;
+}
+
